@@ -101,6 +101,7 @@
     color: #fff;
     font-size: 30px;
     margin-bottom: 20px;
+    padding:20px;
 }
 
 .about-text p {
@@ -108,12 +109,14 @@
     line-height:20px;
     font-size:15px;
     margin-bottom: 45px;
+    padding: 20px;
 }
 
 .work {
     background:  rgba(92, 85, 145, 0.896);
     width: 100%;
     padding: 100px 0px;
+    
 }
 
 .work-title h2 {
@@ -127,18 +130,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 500px;
-    margin: 0 auto;
+    height: auto;
+    width: auto; 
+
 }
 
 .card {
-    height: 100%;
-    width: 100%;
+    min-height: 300px;
+    min-width: 500px;
     background:url(../assets/books.jpeg) no-repeat;
     border-radius: 20px;
-    position: relative;
-    overflow:hidden;
+    position: relative; 
+    overflow:hidden; 
     text-align: center;
 }
 
@@ -162,7 +165,8 @@ h5:hover {
 .boxes {
     display: flex;
     justify-content: space-between;
-    margin: 15px;
+    margin: 15%;
+    margin-top: 10px;
 }
 
 
