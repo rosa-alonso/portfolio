@@ -1,4 +1,4 @@
-![Screen Shot](./assets/images/Screenshot-portfolio.png)
+![Screen Shot](./assets/Screenshot-portfolio.png)
 
 ### **Table of Contents**
 
