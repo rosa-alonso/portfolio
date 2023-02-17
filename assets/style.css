@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin:auto;
+}
+
+.navbar {
+    width: 100%;
+    padding: 15px 0;
+    background: rgba(92, 85, 145, 0.896);
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    color:  rgb(118, 163, 246);
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color:  rgb(118, 163, 246);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: #fff;
+}
+
+.home {
+    display: flex;
+    background-image: url("../assets/background.png");
+    height: 50vh;
+    color:#fff;
+    min-height: 50px;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 25px;
+}
+
+.home .home-content .text-2 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: rgb(92, 0, 128);
+    font-weight: 400;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0 px;
+    background-color: rgb(88, 161, 229);
+}
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+
+.main {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: rgb(92, 0, 128);
+    line-height:20px;
+    font-size:15px;
+    margin-bottom: 45px;
+}
+
+.work {
+    background:  rgba(92, 85, 145, 0.896);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.work-title h2 {
+    color:rgb(118, 163, 246);
+    font-size: 70px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    background:url(../assets/books.jpeg) no-repeat;
+    border-radius: 20px;
+    position: relative;
+    overflow:hidden;
+    text-align: center;
+}
+
+
+.card:hover {
+    box-shadow: inset 0px 0px 8px;
+}
+
+h5 {
+    color: rgb(92, 0, 128);
+    font-size: 30px;
+    margin-top: 15px;
+    transition: color 0.3s ease;
+}
+
+
+h5:hover {
+    color:black;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+.box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width:300px;
+}
+
+.card-2 {
+    height: 100%;
+    width:100%;
+    background:url(../assets/computer-screen.jpeg) no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    position: relative;
+    overflow:hidden;
+    text-align: center;
+}
+
+
+.card-2:hover {
+    box-shadow: inset 0px 0px 8px;
+}
+
+h5 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 15px;
+    transition: color 0.3s ease;
+}
+
+
+h5:hover {
+    color:black;
+}
+
+.box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+}
+
+.card-3 {
+    height: 100%;
+    width: 100%;
+    background:url(../assets/digital-marketing-meeting.jpg) no-repeat; 
+    background-size: contain;
+    border-radius: 20px;
+    position: relative;
+    overflow:hidden;
+    text-align: center;
+}
+
+.card-3:hover {
+    box-shadow: inset 0px 0px 8px;
+}
+
+h5 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 15px;
+    transition: color 0.3s ease;
+}
+
+h5:hover {
+    color:black;
+}
+
+.contact-me {
+    display:flex;
+    margin-top:10px;
+}
+
+.contact-me h2 {
+    font-size: 30px;
+    color:rgb(92, 0, 128);
+    padding: 10px;
+    border-right: 6px solid rgb(92, 0, 128);
+    width: 150px;
+    margin-left: 25px;
+}
+
+.contact-list {
+    width: 80%;
+}
+
+.contact-me ul {
+    font-size: 25px;
+    display: flex;
+    list-style-type: none;
+    color:  rgb(118, 163, 246);
+    position:relative;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.contact-me ul li a {
+    color:  rgb(118, 163, 246);
+}
+
+.contact-me ul li {
+    padding: 5px;
+}
+
